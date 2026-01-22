@@ -2,11 +2,9 @@
   "name": "@melos/tauri",
   "productName": "Melos",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "bun --filter @melos/ui dev",
-    "build": "tsc && bun --filter @melos/ui build",
     "tauri": "tauri"
   },
   "dependencies": {

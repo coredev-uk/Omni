@@ -1,11 +1,11 @@
 {
   "name": "@melos/electron",
+  "productName": "Melos",
+  "private": true,
   "version": "0.0.1",
   "main": "./out/main/index.js",
   "scripts": {
-    "start": "electron-vite preview",
-    "dev": "electron-vite dev",
-    "build": "npm run typecheck && electron-vite build",
+    "electron": "electron-vite",
     "postinstall": "electron-builder install-app-deps"
   },
   "dependencies": {
@@ -18,7 +18,6 @@
     "electron": "github:castlabs/electron-releases#v39.2.7+wvcus",
     "electron-builder": "^26.0.12",
     "electron-vite": "^5.0.0",
-    "typescript": "^5.9.3",
     "vite": "^7.2.6"
   }
 }
